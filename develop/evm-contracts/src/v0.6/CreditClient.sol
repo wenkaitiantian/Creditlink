@@ -12,7 +12,7 @@ import { ENSResolver as ENSResolver_Chainlink } from "https://github.com/wenkait
  * Chainlink network
  */
  
-contract PredictionsClient {
+contract CreditClient {
   using Chainlink for Chainlink.Request;
 
   uint256 constant internal LINK = 10**18;
