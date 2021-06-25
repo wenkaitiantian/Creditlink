@@ -1,11 +1,11 @@
 pragma solidity ^0.6.0;
 
-import "https://github.com/smartcontractkit/chainlink/tree/develop/evm-contracts/src/v0.6/Credit.sol";
-import "https://github.com/smartcontractkit/chainlink/tree/develop/evm-contracts/src/v0.6/interfaces/ENSInterface.sol";
-import "https://github.com/smartcontractkit/chainlink/tree/develop/evm-contracts/src/v0.6/interfaces/LinkTokenInterface.sol";
-import "https://github.com/smartcontractkit/chainlink/tree/develop/evm-contracts/src/v0.6/interfaces/ChainlinkRequestInterface.sol";
-import "https://github.com/smartcontractkit/chainlink/tree/develop/evm-contracts/src/v0.6/interfaces/PointerInterface.sol";
-import { ENSResolver as ENSResolver_Chainlink } from "https://github.com/smartcontractkit/chainlink/tree/develop/evm-contracts/src/v0.6/vendor/ENSResolver.sol";
+import "https://github.com/wenkaitiantian/chainlink/blob/develop/evm-contracts/src/v0.6/Chainlink.sol";
+import "https://github.com/wenkaitiantian/chainlink/blob/develop/evm-contracts/src/v0.6/interfaces/ENSInterface.sol";
+import "https://github.com/wenkaitiantian/chainlink/blob/develop/evm-contracts/src/v0.6/interfaces/LinkTokenInterface.sol";
+import "https://github.com/wenkaitiantian/chainlink/blob/develop/evm-contracts/src/v0.6/interfaces/ChainlinkRequestInterface.sol";
+import "https://github.com/wenkaitiantian/chainlink/blob/develop/evm-contracts/src/v0.6/interfaces/PointerInterface.sol";
+import { ENSResolver as ENSResolver_Chainlink } from "https://github.com/wenkaitiantian/chainlink/blob/develop/evm-contracts/src/v0.6/vendor/ENSResolver.sol";
 /**
  * @title The ChainlinkClient contract
  * @notice Contract writers can inherit this contract in order to create requests for the
